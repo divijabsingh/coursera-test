@@ -1,0 +1,74 @@
+body{
+	margin-left:30px;
+	background-color:;
+}
+
+
+h1{
+	margin: auto;
+	width: 400px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	font-weight: bolder;
+	color: crimson;
+	font-size: 47px;
+	font-style: italic;
+	
+
+
+	
+
+}
+ .rel
+ {
+ 	padding:10px;
+ 	position: relative;
+ 	margin:5px;
+ 	border:0px solid black;
+ 	max-width:30.5%;
+ 	background-color: gray;
+ 	float:left;
+ 	font-style: oblique;
+ 	font-weight: bolder;
+ 	border:2px solid black;
+ }
+
+ .name
+ {
+ 	background-color: lightgray;
+ 	width:17%;
+ 	border:2px dotted gray;
+ 	color: crimson;
+ 	font-family: serif;
+ 	font-style: italic;
+ 	font-weight: bold;
+
+ 	position: absolute;
+ 	right:10px;
+ 	top: 0;
+
+ }
+
+@media (max-width: 1366px)
+{
+	.rel
+	{
+		width: 30.5%
+	}
+}
+
+@media (max-width: 992px)
+{
+	.rel
+	{
+		width: 40%
+	}
+}
+
+@media (max-width: 767px)
+{
+	.rel
+{
+	width:100%;
+}
+}
